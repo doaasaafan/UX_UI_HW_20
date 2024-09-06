@@ -157,7 +157,7 @@
     } 
 
     .project{ 
-        flex-direction: column; 
+        flex-direction: block; 
     } 
 
     .about-project .about-text { 
@@ -174,7 +174,6 @@
     .problem { 
         padding: 0; 
     } 
-
     .problem{ 
         text-align: center; 
         width: 100%; 
@@ -294,7 +293,7 @@
         width: 100%;  
     }
 
-    .highfidelity{
+    .highfidelityDesktop{
 
         flex-direction: column;
         text-align: left; 
@@ -304,19 +303,15 @@
 
 
 
-    .highfidelity-after{
+    .highfidelityMobile{
        flex-direction: column;
         text-align: left; 
         width: 100%; 
-
-    }
-
-    .highfidelityprototype img { 
+        height: auto;
        
-        padding: 1rem; 
     }
 
-
+   
 
 
     .footer-menu { 

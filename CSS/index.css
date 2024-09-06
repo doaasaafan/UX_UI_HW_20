@@ -500,7 +500,7 @@ padding-left: 5rem ;
 }
 
 
-/* highfidelity and user testing */
+/* highfidelity */
 
 .highfidelity-process{
    
@@ -510,11 +510,40 @@ padding-left: 5rem ;
   
 }
 .highfidelityprototype{
-    background-color: rgb(10, 129, 123);
+background-color: rgb(10, 129, 123);
 justify-content: center;
 padding-left: 5rem;
 padding-bottom: 2rem;
 }
+
+.h3{
+    line-height: 2.3em;
+}
+.greet-highifidelity{
+
+    padding-bottom: 2rem;
+}
+
+.highfidelityDesktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.highfidelity-descriptionDesktop{
+   padding-bottom: 0rem; 
+}
+
+.highfidelityMobile{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 4rem;
+
+}
+
+
 /* Thank you */
 
 
